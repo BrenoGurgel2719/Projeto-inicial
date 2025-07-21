@@ -28,7 +28,7 @@ header{
 header h1{
     padding-top: 15px;
     margin-bottom: 10px;
-    font-size: 45pt;
+   
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -48,8 +48,7 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
-    margin: 30px;
-    font-size: 1.2em;
+    margin: 10px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     padding: 10px;
@@ -93,7 +92,7 @@ main p{
 
 main > h1, main h2{
     font-family: "font";
-    color: rgb(13, 85, 167));
+    color: rgb(13, 85, 167);
 }
 
 main h2{
@@ -134,4 +133,21 @@ aside li{
     columns: 2;
     list-style-position: inside;
     list-style-type: "\00a0\00a0\2705\00a0\00a0";
+}
+
+header, main{
+    font-size: 3rem;
+}
+
+@media (max-width:480px){
+    header, main{
+        font-size: 0.5rem;
+    }
+   
+}
+
+@media (max-width:768px){
+    header, main{
+        font-size: 2rem;
+    }
 }
