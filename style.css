@@ -23,6 +23,7 @@ header{
     color: white;
     background-image: linear-gradient(to bottom, rgb(10, 103, 146), rgb(15, 56, 102));
     min-height: 180px;
+    padding: 50px;
 }
 
 header h1{
